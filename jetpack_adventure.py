@@ -7,7 +7,7 @@ import math
 
 # Initialize pygame
 pygame.init()
-pygame.mixer.init()  # Initialize the mixer module for sound
+pygame.mixer.init()  
 
 # Game constants
 SCREEN_WIDTH = 1200
