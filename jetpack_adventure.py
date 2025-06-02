@@ -19,8 +19,8 @@ MAX_VELOCITY = 12  # Cap on maximum velocity
 JETPACK_ACCELERATION = 0.8  # Gradual acceleration for jetpack
 JETPACK_DECELERATION = 0.4  # Gradual deceleration when releasing jetpack
 SCROLL_SPEED = 5
-OBSTACLE_FREQUENCY = 1500  # milliseconds
-COIN_FREQUENCY = 2000  # milliseconds
+OBSTACLE_FREQUENCY = 1500  
+COIN_FREQUENCY = 2000  
 BACKGROUND_SPEED = 2
 MISSILE_SPEED = 8
 
