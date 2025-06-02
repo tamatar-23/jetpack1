@@ -412,7 +412,7 @@ class Player:
             # Gradually decrease velocity (accelerate upward) with a smoother transition
             self.velocity -= JETPACK_ACCELERATION
             
-            # Play jetpack sound (looping)
+            # Play jetpack sound
             if "jetpack" in sounds and sounds["jetpack"] is not None:
                 if not pygame.mixer.get_busy():
                     play_sound("jetpack")
