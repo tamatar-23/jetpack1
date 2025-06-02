@@ -425,7 +425,7 @@ class Player:
             if "jetpack" in sounds and sounds["jetpack"] is not None:
                 pygame.mixer.stop()
                 
-            # Add some deceleration when jetpack is turned off (feels more realistic)
+            # Add some deceleration when jetpack is turned off 
             if self.velocity < 0:
                 self.velocity += JETPACK_DECELERATION
         
